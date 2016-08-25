@@ -1,0 +1,167 @@
+/* -----------------------
+Base styles
+------------------------*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: white;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+h1 { font-size: 2.25em; } /* 36px */
+h2 { font-size: 1.75em; } /* 28px */
+h3 { font-size: 1.375em; } /* 22px */
+h4 { font-size: 1.125em; } /* 18px */
+h5 { font-size: 1em; } /* 16px */
+h6 { font-size: .875em; } /* 14px */
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+blockquote
+{
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 5px solid #eee;
+}
+
+hr
+{
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+table
+{
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	/*border-top: 1px solid #ddd;*/
+}
+
+th, td
+{
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+	/*border-bottom: 1px solid #ddd;*/
+}
+
+cite
+{
+	color: green;
+}
+
+.st b{
+	color: red;
+	font-weight: normal;
+}
+
+a:link { color: royalblue; }
+a:visited { color: purple; }
+a:focus { color: black; }
+a:hover { color: purple; }
+a:active { color: red; }
+
+/* -----------------------
+Layout styles
+------------------------*/
+
+.container
+{
+	max-width: 70em;
+	margin: 0 auto;
+}
+
+.header
+{
+	color: #fff;
+	background: #330099;
+	padding: 1em 1.25em;
+}
+
+.header-heading { margin: 0; }
+
+.content
+{
+	overflow: hidden;
+	padding: 1em 1.25em;
+	background-color: white;
+}
+
+.manu, .main
+{
+	margin-bottom: 1em;
+}
+
+.searchbar
+{
+	color: #6600FF;
+	background: #66FFFF;
+	padding: 1em 1.25em;
+}
+
+.desp
+{
+	margin: .5em;
+	color: grey;
+	text-align: center;
+}
+
+
+.spinner {
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 2000px; /* width of the spinner gif */
+    height: 120px; /*hight of the spinner gif +2px to fix IE8 issue */
+    background-color: beige;
+}
+
+/* -----------------------
+Wide styles
+------------------------*/
+
+@media (min-width: 55em)
+{
+	.header { padding: 1.5em 3em; }
+	.searchbar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+
+	.manu
+	{
+		float: left;
+		width: 20% !important
+		margin-right: 10%;
+		margin-bottom: 1em;
+	}
+
+	.main
+	{
+		float: left;
+		width: 65%;
+		margin-bottom: 1em;
+	}
+	
+}
