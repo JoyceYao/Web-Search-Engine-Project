@@ -3,7 +3,7 @@ A search result clustering system
 <p>
 The clustering process:
 <p>
-![cluster process](/img/cluster_process.png)
+![cluster process](/img/cluster_process.png?raw=true)
 
 <p>
 What this system do:
