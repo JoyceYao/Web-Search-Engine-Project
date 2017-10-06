@@ -1,7 +1,7 @@
 # Web-Search-Engine-Project
   A search result clustering system
 
-The clustering process:
+## The clustering process:
 ![cluster process](/img/cluster_process.png?raw=true)
 
 
