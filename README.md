@@ -12,7 +12,7 @@ The clustering process:
 4. The system calculates a representive label for each cluster by querying wordNet and Wikipedia.
 5. The system shows the search result clusters and labels to the user.
 6. If the user clicks on the cluster name, the system shows the results for this particular cluster.
-7. If the user clicks on the search result URL, the systme opens the web page.
+7. If the user clicks on the search result URL, the system opens the web page.
 
 
 ## The cluster result:
