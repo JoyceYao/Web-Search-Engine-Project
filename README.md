@@ -3,7 +3,7 @@ A search result clustering system
 <p>
 The clustering process:
 <p>
-![Alt text](/img/cluster_process.png)
+![cluster process](/img/cluster_process.png)
 
 <p>
 What this system do:
@@ -17,4 +17,4 @@ What this system do:
 <p>
 <p>
 The cluster result:
-![Alt text](/img/cluster_result.png)
+![cluster result](/img/cluster_result.png)
