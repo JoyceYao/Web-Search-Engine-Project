@@ -2,8 +2,9 @@
 A search result clustering system
 <p>
 The clustering process:
-![Alt text](/img/cluster_process.png)
 <p>
+![Alt text](/img/cluster_process.png)
+
 <p>
 What this system do:
 <ol>(1) The user inputs search key words.</ol>
